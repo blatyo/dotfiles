@@ -1,0 +1,4 @@
+alias mysql="mysql -u root"
+alias fp="ps -ef | grep -i "
+alias fpp="lsof -i -P | grep -i listen"
+alias ..="cd ..; "

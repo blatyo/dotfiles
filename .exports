@@ -1,0 +1,31 @@
+export EDITOR='mate -w'
+export GEM_OPEN_EDITOR='mate'
+
+export IRBRC="$HOME/.irbrc"
+
+export GIT_EDITOR=$EDITOR
+export VISUAL=$EDITOR
+
+export TERM=xterm-color
+export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
+export CLICOLOR=1
+
+# sets title of window to be user@host
+export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*} ${PWD}"; echo -ne "\007"'
+
+export HISTSIZE=1000000
+
+# Add ls colors
+export CLICOLOR=1
+export LSCOLORS=CxGxExDxBxegedabagacad
+
+# MacPorts Installer addition on 2010-06-03_at_11:18:57: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/usr/local/mysql/bin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+# Change Prompt
+export PS1="\w > "
+
+# Jeweler Options
+export JEWELER_OPTS="--rspec --yard --cucumber"
