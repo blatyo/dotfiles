@@ -1,4 +1,5 @@
 require 'pp'
+require 'rubygems' #for ruby less than 1.9
 
 # Colors
 begin
